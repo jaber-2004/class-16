@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6,p{
 .btn:hover{
     background: transparent;
     color: #959595;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #959595;
 }
 /* Headerpart end  */
 
@@ -52,6 +52,7 @@ h1,h2,h3,h4,h5,h6,p{
 #bannarPart{
     padding-top: 175px;
     padding-bottom: 60px;
+    position: relative;
 }
 .bannarText h4{
     font-size: 24px;
@@ -76,14 +77,19 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .bannarSocalIcon a{
-    background-color: #959595;
-    padding: 8px 8px;
+    padding: 5px 8px;
     border-radius: 50px;
     color: #FFFFFF;
     font-size: 20px;
     margin-top: 40px;
     display: inline-block;
     margin-right: 20px;
+    background-color: #959595;
+    transition: .4s;
+}
+.bannarSocalIcon a:hover{
+    color: #FFFFFF;
+    background-color: #FD6F00;
 }
 .hirebtn{
     margin-top: 60px;
@@ -96,5 +102,12 @@ h1,h2,h3,h4,h5,h6,p{
     opacity: 4%;
     padding: 9px; 
     margin-top: 80px;
+}
+.modelimg img {
+  transition: 0.4s;
+  text-align: end;
+}
+.modelimg img:hover {
+  transform: scale(1.06);
 }
 /* Bannarpart end  */
