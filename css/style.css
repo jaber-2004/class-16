@@ -2,7 +2,6 @@
 *{
     margin: 0%;
     padding: 0%;
-    
     font-family: "Lato", sans-serif;
 }
 body{
@@ -86,11 +85,12 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 40px;
     display: inline-block;
     margin-right: 20px;
-    background-color: #959595;
+    border:1px solid #959595;
     transition: .4s;
 }
 .bannarSocalIcon a:hover{
     color: #FFFFFF;
+     border:1px solid #FD6F00;
     background-color: #FD6F00;
 }
 .hirebtn{
