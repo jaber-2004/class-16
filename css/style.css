@@ -52,9 +52,12 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* Bannarpart start  */
 #bannarPart{
-    padding-top: 175px;
+    padding-top: 130px;
     padding-bottom: 60px;
     position: relative;
+}
+.bannarText{
+    padding-top: 30px;
 }
 .bannarText h4{
     font-size: 24px;
@@ -105,11 +108,14 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 9px; 
     margin-top: 80px;
 }
-.modelimg img {
-  transition: 0.4s;
+.modelimg{
   text-align: end;
 }
+.modelimg img {
+  transition: 0.4s;
+
+}
 .modelimg img:hover {
-  transform: scale(1.06);
+  transform: scale(1.03);
 }
 /* Bannarpart end  */
